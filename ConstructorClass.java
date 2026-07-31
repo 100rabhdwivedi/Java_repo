@@ -8,7 +8,12 @@ class Learners{
 		name = "Gaurav";
 		cls = "Bca";
 	}
-
+		
+	Learners(int id,String name,String cls){
+		this.id = id;
+		this.name = name;
+		this.cls = cls;
+	}
 	void setId(int id){
 		this.id = id;
 	}
@@ -45,12 +50,14 @@ public class ConstructorClass{
 
 	System.out.println("**********************************************");
 	
-	Learners L2 = new Learners();
-	System.out.println("Name:"+L2.getName()+" Id:"+L2.getId()+" Class:"+L2.getCls());
+	Learners L3 = new Learners(101,"Monkey","M1");
+	System.out.println("Name:"+L3.getName()+" Id:"+L3.getId()+" Class:"+L3.getCls());
 
 	System.out.println("**********************************************");
 	
-	
+	Learners L2 = new Learners();
+	System.out.println("Name:"+L2.getName()+" Id:"+L2.getId()+" Class:"+L2.getCls());
+
 
 
 	
