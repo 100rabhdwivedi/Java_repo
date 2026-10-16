@@ -34,6 +34,6 @@ class LaunchStatic2{
 	public static void main(String args[]){
 	Demo2.dis();
 	Demo2 d1 = new Demo2();
-	d1.dis2();	
+	d1.dis2();
 }
 }
