@@ -59,18 +59,18 @@ public class LaunchArrayList {
         //     System.out.println(litr.previous());
         // }
 
-        Vector v = new Vector();
+        // Vector v = new Vector();
 
-        v.addElement(10);
-        v.addElement(20);
-        v.addElement(30);
-        v.add(9);
+        // v.addElement(10);
+        // v.addElement(20);
+        // v.addElement(30);
+        // v.add(9);
 
-        Enumeration en = v.elements();
+        // Enumeration en = v.elements();
 
-        while (en.hasMoreElements()) {
-            System.out.println(en.nextElement());
-        }
+        // while (en.hasMoreElements()) {
+        //     System.out.println(en.nextElement());
+        // }
 
 
     }
