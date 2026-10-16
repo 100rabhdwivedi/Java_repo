@@ -1,6 +1,8 @@
 import java.util.ArrayList;
+import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.ListIterator;
+import java.util.Vector;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class LaunchArrayList {
@@ -56,6 +58,20 @@ public class LaunchArrayList {
         // while(litr.hasPrevious()){
         //     System.out.println(litr.previous());
         // }
+
+        Vector v = new Vector();
+
+        v.addElement(10);
+        v.addElement(20);
+        v.addElement(30);
+        v.add(9);
+
+        Enumeration en = v.elements();
+
+        while (en.hasMoreElements()) {
+            System.out.println(en.nextElement());
+        }
+
 
     }
 }
